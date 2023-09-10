@@ -65,7 +65,7 @@ content = generate_page_content(hex_address, input_string)
 print(content)
 #print("Short String:", short_string)
 
-# Break up the short string as requested
+# Break up the short string
 output_string = (
     f"\nBuilding: {short_string[0]}\n"
     f"Floor: {short_string[1:3]}\n"
